@@ -1,0 +1,70 @@
+SQL
+-is Structured Query Language
+-lets us access and manipulate databases
+-can queries against a database
+-can retrieve data from database
+-can insert, update, delete records in database
+-can create new database
+-can create new tables in database
+-can create stored procedures
+-can create views
+-can set permissions on table, procedures and views
+
+RDMS
+-Relational Database Management System
+-data is stored in database objects called tables
+-table contains fields(columns) and record(rows)
+
+SQL Statements
+
+	SELECT * FROM Customers
+	above statement will selects all the records in the Customers table
+
+Some most important SQL Commands
+-SELECT extracts data from database
+-UPDATE updates data in database
+-DELETE deletes data from database
+-INSERT INTO inserts new data into a database
+-CREATE DATABASE creates new database
+-ALTER DATABASE modifies a database
+-CREATE TABLE creates a new table
+-ALTER TABLE modifies a table
+-DROP TABLE deletes the table
+-CREATE INDEX creates an index(search key)
+-DROP INDEX deletes as index
+
+THE SQL SELECT Statement
+-it is used to select data from database
+-data returned is stored in a result table, called result-set
+
+SELECT Syntax
+SELECT column1, column2, ...
+FROM table_name;
+
+column1, column2-fields
+if we want to select all the columns or fields, replace * with columns
+SELECT * FROM table_name;
+
+SELECT DISTINCT
+-used to return only distinct values
+
+SELECT DISTINCT Syntax
+SELECT DISTINCT col1, col2,...
+FROM table_name;
+
+SELECT all element of a specific column
+SELECT col2 FROM table_name
+
+SELECT distinct values of a specific column
+SELECT DISTINCT col2 FROM table_name
+
+Return Count of values of a specific column
+SELECT COUNT(col2) FROM table_name
+
+Return Count of distinct values of a specific column
+SELECT COUNT(DISTINCT col2) FROM table_name
+SELECT COUNT(DSITINCT col) FROM table_name will not work on Firefox, because it is not supported in MS Databases.
+
+For Firefox,
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
