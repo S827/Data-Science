@@ -1,3 +1,7 @@
 {
-  "notebooks": {}
+  "notebooks": {
+    "python-numerical-computing-with-numpy.ipynb": {
+      "slug": "3142b32fcc574e75b6f4941e0d1801c5"
+    }
+  }
 }
