@@ -2,6 +2,9 @@
   "notebooks": {
     "python-numerical-computing-with-numpy.ipynb": {
       "slug": "3142b32fcc574e75b6f4941e0d1801c5"
+    },
+    "python-os-and-filesystem.ipynb": {
+      "slug": "da0724021b24498d851a79871d504a71"
     }
   }
 }
