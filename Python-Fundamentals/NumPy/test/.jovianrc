@@ -1,3 +1,7 @@
 {
-  "notebooks": {}
+  "notebooks": {
+    "os_test_1.ipynb": {
+      "slug": "e3f352ac566d4dc49a7e15b5fc14cbf9"
+    }
+  }
 }
