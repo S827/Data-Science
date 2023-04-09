@@ -2,6 +2,9 @@
   "notebooks": {
     "Untitled.ipynb": {
       "slug": "d8f01a2264f64819b9b1576ecd56ff9f"
+    },
+    "python-pandas-data-analysis.ipynb": {
+      "slug": "7828e0b72cd242e294fc4e50331ccbd1"
     }
   }
 }
